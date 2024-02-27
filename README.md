@@ -1,4 +1,4 @@
-The Python script detects the angle of (four) parallel lines in the image, and then rotates the image by that angle. 
+The Python script detects the angle of (four) parallel lines in the image, and then rotates the image by that angle such that the lines are aligned with the vertical axis. 
 
 The lines are detected by Canny Edge Detector and Hough Lines. The image is then rotated by the average angle of the four parallel lines.
 
